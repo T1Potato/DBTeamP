@@ -1,0 +1,165 @@
+body {
+	font-family: 'Nanum Gothic Coding', monospace;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+img {
+	width: 1.8rem;
+	height: 2rem;
+}
+
+input {
+	padding: 0.2rem;
+	margin-bottom: 0.1rem;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	background: rgb(117, 161, 255);
+	color: white;
+	padding: 0.75rem;
+	height: 2.5rem;
+}
+
+.navbar_toggle{
+	left: 0.5rem;
+	font-size: 1.5rem;
+	color: white;
+}
+.navbar_toggle:hover {
+	cursor: pointer;
+}
+
+.navbar_logo {
+	width: 16rem;
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding: 0.5rem;
+	flex-grow:1;
+}
+
+.navbar_session {
+	flex-grow: 1;
+	font-size: 0.5rem;
+	font-weight: 400;
+	width:100%;
+	text-align: right;
+	padding-right: 0.5rem;
+	
+}
+
+
+
+main {
+	display: flex;
+	width: 100%;
+	height: calc(100% - 2rem);
+}
+
+
+.asidebar {
+	width: 10rem;
+	height: 100%;
+	border-right: 0.5px solid rgba(0,0,0,0.5);
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.asidebar.active {
+	display: none;
+}
+
+.aside_menu a {
+	color: rgba(0,0,0,0.8);
+}
+
+.aside_menu {
+	display: flex;
+	flex-direction: column;
+	background: white;
+	list-style: none;
+	padding-left: 0;
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+.aside_menu li {
+	display:flex;
+	flex-direction: column;
+	padding: 0.75rem;
+	border-bottom: 0.5px solid rgba(0,0,0,0.5);
+}
+.aside_menu li :hover {
+	font-weight: 400;
+	font-size: 0.8rem;
+	text-shadow: 0.1px 0.1px 0.1px rgba(0,0,0,0.1);
+}
+#bold-menu {
+	font-weight:700;
+}
+
+
+.aside_session a {
+	color: rgb(255, 255, 255);
+}
+
+.aside_session {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0;
+	background: rgba(117, 161, 255, 0.8);
+}
+
+.aside_session li{
+	padding: 0.5rem 0.75rem;
+	font-size: 0.5rem;
+	font-weight: 400;
+}
+
+.aside_session li :hover {
+	font-weight: 700;
+	text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.3);
+}
+
+.main_section {
+    width: calc(100% - 8rem - 0.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_section.active {
+	width: 100%;
+	display: relative;
+}
+
+.main_section_img {
+    width: calc(100% - 8rem - 0.5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_section_img.active {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
